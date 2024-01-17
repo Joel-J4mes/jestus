@@ -213,3 +213,44 @@ marquee {
   text-align: center;
 
 }
+
+
+
+@media screen and (min-width: 210px) and (max-width: 410px) {
+
+  .content {
+    font-size: 24px;
+  }
+
+
+
+  marquee {
+    color: #0d053f;
+    font-size: 25px;
+    font-family: p;
+  }
+
+
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: p1;
+    width: 100%;
+    margin: 0 auto;
+    color: #313131;
+    font-weight: bold;
+    -webkit-animation: colorchange 20s infinite alternate;
+  }
+
+
+  .name {
+    margin-top: 80px;
+    text-align: center;
+    background: linear-gradient(180deg, #000000 0%, #1526de 110%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    font-size: 100px;
+    font-family: bday;
+  }
+}
