@@ -25,6 +25,7 @@ body {
   cursor: pointer;
   font-size: 120px;
   font-family: bday;
+  -webkit-animation: colorchange 20s infinite alternate;
 }
 
 .content {
